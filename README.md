@@ -11,11 +11,12 @@ Set up a new forest with Active Directory Domain Services <br>
 
 
 ## Lab 3
-CMD commands: <br>
+CMD commands:
 - `ipconfig` <br>
 - `ipconfig /all` <br>
 - `net use` (for shared drives) <br>
 - `net user <user> /domain` (for password history and permissions) <br>
+
 Created a helpdesk account with Active Directory Users and Computers <br>
 Searching “Entire Directory” <br>
 View “Advanced Features” for objects <br>
@@ -41,11 +42,12 @@ Double checked that recycle bin is enabled <br>
 Configured everything on VM3 the same way as VM2 (can use either one for quicker labbing <br>)
 
 ## Lab 6
-CMD commands: <br>
+CMD commands:
 - `ping` <br>
 - `ping <ip address> -t` <br>
 - `gpresult  /user <name> /r  >c:\result` <br>
 - `gpupdate /help` <br>
+
 Unlocking a locked account <br>
 Disabling and enabling accounts <br>
 Disabling and enabling computers <br>
@@ -60,8 +62,9 @@ Personal Drives <br>
 Map lettering using Active Directory <br>
 
 ## Lab 8
-CMD commands: <br>
+CMD commands:
 - `ipconfig /flushdns` <br>
+
 Enable remote desktop settings <br>
 Remote into desktop using Remote Desktop Connection <br>
 Drives and AppData <br>
@@ -74,6 +77,7 @@ CMD commands
 - `gpupdate /force` (logoff necessary for desktop level but not user level)
 - `gpupdate /?`
 - `gpresult /r` <br>
+
 Group policy <br>
 Group policy admin permission override <br>
 Group Policy Results Wizard <br>
